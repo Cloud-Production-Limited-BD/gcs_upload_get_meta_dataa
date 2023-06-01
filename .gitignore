@@ -2,3 +2,6 @@ frontend/node_modules
 gcs_frontend/node_modules
 gcs_backend/node_modules
 gcs_backend/service_account_key.json
+
+metadata-app/node_modules
+file-upload/.env
