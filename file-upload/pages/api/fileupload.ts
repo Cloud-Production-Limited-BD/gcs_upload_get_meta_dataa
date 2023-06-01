@@ -2,7 +2,7 @@ import { Storage } from "@google-cloud/storage";
 import type { NextApiRequest, NextApiResponse } from "next";
 const storage = new Storage({
   credentials: {
-    client_email: process.env.NEXT_APP_PROJECT_ID as string,
+    client_email: process.env.NEXT_APP_CLIENT_EMAIL as string,
     private_key: process.env.NEXT_APP_PRIVATE_KEY as string
   },
   projectId: process.env.NEXT_APP_PROJECT_ID as string
